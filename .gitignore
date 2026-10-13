@@ -1,0 +1,26 @@
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Manuscript proof; experimental PDF plots remain tracked
+/TNET-2025-00467_Proof_hi*.pdf
+
+# Other research branches and exploratory scripts in this workspace
+/Fault-Tolerant-Routing/
+/Fault-Tolerant-Routing-adjusted/
+/AugmentedCube.py
+/AugmentedKAryNCube-*.py
+/parallel.py
